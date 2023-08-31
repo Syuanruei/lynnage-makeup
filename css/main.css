@@ -1,0 +1,37 @@
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-top {
+  background: #A88F67;
+}
+
+.nav_under {
+  border-bottom: 1px solid #A88F67;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav_left {
+  padding-left: 38px;
+}
+
+.nav_right {
+  margin-top: 52px;
+  margin-left: 20px;
+  display: flex;
+}
+
+.nav_rtext {
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+  padding: 0 12px;
+}/*# sourceMappingURL=main.css.map */
