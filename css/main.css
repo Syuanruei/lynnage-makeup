@@ -44,6 +44,46 @@ ul, ol {
   padding: 0px 10px;
 }
 
+.foo-b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+
+.foo-bl {
+  width: 25%;
+  color: #FFF;
+}
+.foo-bl .foo-st {
+  font-size: 12px;
+  color: gray;
+  padding-bottom: 40px;
+}
+.foo-bl .foo-st2 {
+  font-size: 12px;
+}
+
+.foo-bmid {
+  width: 40%;
+}
+
+.foo-br {
+  width: 25%;
+  color: #FFF;
+}
+.foo-br .foo-st3 {
+  font-size: 22px;
+  color: gray;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+.foo-br .foo-st4 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
 @media (min-width: 992px) {
   .accordion-item {
     color: #FFF;
