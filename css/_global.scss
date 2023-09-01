@@ -30,3 +30,19 @@ ul,ol{
     font-weight: 600;
     padding: 0 12px;
 }
+.bottom-left{
+    margin-left: 130px;
+}
+.black-right{
+    padding: 0px 10px;
+}
+
+@media(min-width: 992px){
+    .custom-acc{
+        
+    }
+    .accordion-item{
+        color: #FFF;
+        background: #000;
+    }
+}
