@@ -1,3 +1,7 @@
+.container {
+  --bs-gutter-x: 0rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -90,7 +94,7 @@ ul, ol, li {
 }
 
 .foo-bmid {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
@@ -104,6 +108,63 @@ ul, ol, li {
   color: #FFF;
 }
 
+.accordion {
+  width: 100%;
+  --bs-accordion-border-radius: none;
+  --bs-accordion-inner-border-radius: none;
+  --bs-accordion-btn-color: #ffffff;
+  --bs-accordion-btn-bg: #595959;
+  --bs-accordion-btn-focus-border-color: #ffffff00;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-active-color: #fff;
+  --bs-accordion-active-bg: #424547;
+}
+
+.accordion-item {
+  background-color: #424547;
+}
+
+@media (min-width: 992px) {
+  .foo-bmid {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .accordion {
+    --bs-accordion-btn-bg: #000000;
+    --bs-accordion-active-bg: #000000;
+    --bs-accordion-border-color: none;
+    --bs-accordion-btn-padding-x: 0rem;
+    --bs-accordion-btn-padding-y: 0rem;
+    --bs-accordion-btn-active-icon: none;
+    --bs-accordion-body-padding-x: 0rem;
+    --bs-accordion-body-padding-y: 0rem;
+  }
+  .accordion-item {
+    background-color: #000;
+  }
+  .accordion-button::after {
+    display: none;
+  }
+  .collapse:not(.show) {
+    display: block;
+  }
+  .custom-acc {
+    display: flex;
+    justify-content: space-around;
+  }
+  .custom-acc2 {
+    width: 65px;
+    height: 56px;
+    border-bottom: 2px solid gray;
+  }
+  .accordion-body {
+    margin-top: 14px;
+  }
+  .custom-pd {
+    padding: 10px 0;
+  }
+}
 @media (max-width: 992px) {
   .foo-b {
     flex-direction: column;
